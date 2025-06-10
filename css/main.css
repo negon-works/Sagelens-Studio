@@ -87,15 +87,24 @@ header {
   align-items: center;
 }
 
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
 .hero-text h1 {
   font-family: var(--body-font);
   font-size: 3rem;
   text-align: center;
   padding: 1rem 2rem;
   border-radius: 12px;
-  color: transparent; /* Makes the text itself transparent */
-  -webkit-text-stroke: 0.01px #f0f0f0;
+  color: transparent;
+  -webkit-text-stroke: 1px #f0f0f0;
 }
+
 
 .contact .section-title {
   text-align: center;
