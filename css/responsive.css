@@ -1,0 +1,40 @@
+@media (max-width: 768px) {
+  .navbar {
+    position: absolute ;
+    top: 70px;
+    right: 0;
+    padding-left: 20px;
+    flex-direction: column;
+    background: white;
+    width: 200px;
+    display: none!important;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+
+  .navbar.active {
+    display: flex !important;
+  }
+
+  .hamburger {
+    display: flex !important;
+  }
+
+  .hero-text h1 {
+    font-size: 2rem;
+    padding: 1rem;
+  }
+
+  .about-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-content img, 
+  .about-content p {
+    width: 100%;
+  }
+
+  .contact-form {
+    padding: 1rem;
+  }
+}
