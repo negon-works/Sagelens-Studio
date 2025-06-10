@@ -172,7 +172,7 @@ header {
 
 @media (max-width: 600px) {
   .portfolio .grid {
-    column-count: 1;
+    column-count: 2;
   }
 }
 
@@ -222,6 +222,7 @@ header {
   max-width: 500px;
   font-size: 1.1rem;
   line-height: 1.6;
+  text-align: left;
 }
 
 
