@@ -102,7 +102,7 @@ header {
   padding: 1rem 2rem;
   border-radius: 12px;
   color: transparent;
-  -webkit-text-stroke: 1px #f0f0f0;
+  -webkit-text-stroke: 0.1px #f0f0f0;
 }
 
 
