@@ -81,7 +81,7 @@ header {
 }
 .hero {
   height: 100vh;
-  background: url('https://img.freepik.com/premium-photo/top-view-work-space-photographer-with-digital-camera-flash-cleaning-kit-memory-card-tripod-camera-accessory-black-table-background_160097-56.jpg?semt=ais_items_boosted&w=740') center/cover no-repeat;
+  background: url('https://shorturl.at/89F5d') center/cover no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -94,7 +94,7 @@ header {
   padding: 1rem 2rem;
   border-radius: 12px;
   color: transparent; /* Makes the text itself transparent */
-  -webkit-text-stroke: 0.01px #fff;
+  -webkit-text-stroke: 0.01px #f0f0f0;
 }
 
 .contact .section-title {
@@ -184,7 +184,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 4rem 2rem;
+  padding: 6rem 2rem;
   box-sizing: border-box;
 }
 
@@ -195,8 +195,8 @@ header {
 
 .about-h1 {
   font-family: var(--heading-font);
-  font-size: 1.8rem;
-  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  margin-bottom: 2rem;
   letter-spacing: 0.5rem;
   text-align: center;
   color: #fff;
@@ -212,10 +212,23 @@ header {
 }
 
 .about-img {
-  width: 400px;
-  height: 400px;
+  width: 100%;
+  max-width: 350px;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.about-img img {
+  width: 100%;
+  height: 100%;
   object-fit: cover;
-  border-radius: 10px;
+  border-radius: 50%;
+  display: block;
 }
 
 .about-content p {
@@ -224,6 +237,7 @@ header {
   line-height: 1.6;
   text-align: left;
 }
+
 
 
 .contact-form {
