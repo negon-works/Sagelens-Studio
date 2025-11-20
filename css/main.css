@@ -81,7 +81,7 @@ header {
 }
 .hero {
   height: 100vh;
-  background: url('https://shorturl.at/89F5d') center/cover no-repeat;
+  background: url('https://picsum.photos/600/400') center/cover no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -307,3 +307,4 @@ footer .socials a {
   opacity: 1;
   transform: translateY(0);
 }
+
